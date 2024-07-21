@@ -4,8 +4,8 @@ This sales data is about AtliQ hardware company which founded by bhavin patel. t
 problem statement is to understand companies data and collect the business insights from the past data for business grauth.
 Step1 : load the data in MYSLQ database we observed data see the all tables and columns and understand the relationship between the tables and columns.
 Step2 : load our sales database in powerbi in which we used power query for data cleaning , transformation, ETL process
-1)     remove the blank rows from market table (m_name={newyork, paris})
-2)     remove 0 , -1 sales_amount from  trancations table (sales_transactions={0, -1})
-3) 	create new col norm_sales_amount and convert the USD amount to INR amount 
-4) 	count the total revenue 
+1) remove the blank rows from market table (m_name={newyork, paris})
+2) remove 0 , -1 sales_amount from  trancations table (sales_transactions={0, -1})
+3) create new col norm_sales_amount and convert the USD amount to INR amount 
+4) count the total revenue 
 Step3: Create a PowerBI dashboard that Revenue, sales quantity, top customers and products.
